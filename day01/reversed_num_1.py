@@ -1,0 +1,5 @@
+num = int(input('请输入一个整数：num = '))
+reserved_num = str(num)
+ret=int(reserved_num[::-1])
+print(ret)
+print(type(ret))
