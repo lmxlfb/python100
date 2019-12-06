@@ -5,8 +5,10 @@ def fibonacci_num(num):
         return fibonacci_num(num-1)+fibonacci_num(num-2)
 
 num1 = int(input('input something:'))
+a = []
 for i in range(1,num1+1):
     print('%d'%fibonacci_num(i))
-
+    a.append(fibonacci_num(i))
+print(a)
 
 
